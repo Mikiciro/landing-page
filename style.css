@@ -118,19 +118,24 @@ a {
   font-weight: 700;
 }
 
-.call-to-action {
-  background-color: #3882f6;
-  border-radius: 5px;
-  margin: 50px;
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-}
-
 .call-to-action-container{
   color: #f9faf8;
   display: flex;
   justify-content: center;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  border-radius: 5px;
+  margin: 5rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#btn-cta{
+  padding: 0 3rem;
 }
 
 .call-to-action p:first-of-type{
@@ -143,5 +148,10 @@ button {
   border-color: #e5e7eb;
   border-radius: 5px;
   margin: 1rem 0;
-  padding: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.footer{
+  text-align: center;
+  padding: 2rem;
 }
