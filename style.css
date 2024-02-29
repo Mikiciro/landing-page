@@ -98,12 +98,7 @@ a {
   text-align: center;
 }
 
-.call-to-action {
-  background-color: #3882f6;
-  border-radius: 5px;
-  margin: 50px;
-  padding: 50px;
-}
+
 
 .quotes {
   background-color: #e5e7eb;
@@ -123,7 +118,24 @@ a {
   font-weight: 700;
 }
 
+.call-to-action {
+  background-color: #3882f6;
+  border-radius: 5px;
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
 
+.call-to-action-container{
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+}
+
+.call-to-action p:first-of-type{
+  font-weight: 700;
+}
 
 button {
   background-color: #3882f6;
